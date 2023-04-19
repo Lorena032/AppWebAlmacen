@@ -9,7 +9,7 @@ namespace AppWebAlmacen.Datos
     {
         public SqlConnection mtdConexion()
         {
-            conexion = new SqlConnection("");
+            conexion = new SqlConnection("Data Source=SOGAPRRBCFSD534\\SQLEXPRESS;Initial Catalog=dbAlmacen;Integrated Security=True");
             conexion.Open();
             return conexion;
         }
