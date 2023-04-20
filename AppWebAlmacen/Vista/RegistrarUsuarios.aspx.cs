@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace AppWebAlmacen.Vista
 {
-    public partial class RegistrarUsuario : System.Web.UI.Page
+    public partial class RegistrarUsuarios : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

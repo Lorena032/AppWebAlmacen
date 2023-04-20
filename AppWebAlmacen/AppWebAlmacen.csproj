@@ -71,6 +71,7 @@
   <ItemGroup>
     <Content Include="Scripts\sweetalert-dev.js" />
     <Content Include="Scripts\sweetalert.min.js" />
+    <Content Include="Vista\css\StyleSheetRegU.css" />
     <Content Include="Vista\css\sweetalert.css" />
     <Content Include="Vista\Bootstrap\css\bootstrap-grid.css" />
     <Content Include="Vista\Bootstrap\css\bootstrap-grid.min.css" />
@@ -110,7 +111,7 @@
     <Content Include="Vista\css\v4-shims.css" />
     <Content Include="Vista\css\v4-shims.min.css" />
     <None Include="Vista\Imagenes\img-profile" />
-    <Content Include="Vista\RegistrarUsuario.aspx" />
+    <Content Include="Vista\RegistrarUsuarios.aspx" />
     <Content Include="Vista\RegistroProducto.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -132,12 +133,12 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="Vista\RegistrarUsuario.aspx.cs">
-      <DependentUpon>RegistrarUsuario.aspx</DependentUpon>
+    <Compile Include="Vista\RegistrarUsuarios.aspx.cs">
+      <DependentUpon>RegistrarUsuarios.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vista\RegistrarUsuario.aspx.designer.cs">
-      <DependentUpon>RegistrarUsuario.aspx</DependentUpon>
+    <Compile Include="Vista\RegistrarUsuarios.aspx.designer.cs">
+      <DependentUpon>RegistrarUsuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vista\RegistroProducto.aspx.cs">
       <DependentUpon>RegistroProducto.aspx</DependentUpon>
