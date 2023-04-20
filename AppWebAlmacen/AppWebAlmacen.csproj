@@ -91,7 +91,22 @@
     <Content Include="Vista\Bootstrap\js\bootstrap.esm.min.js" />
     <Content Include="Vista\Bootstrap\js\bootstrap.js" />
     <Content Include="Vista\Bootstrap\js\bootstrap.min.js" />
+    <Content Include="Vista\css\all.css" />
+    <Content Include="Vista\css\all.min.css" />
+    <Content Include="Vista\css\brands.css" />
+    <Content Include="Vista\css\brands.min.css" />
+    <Content Include="Vista\css\fontawesome.css" />
+    <Content Include="Vista\css\fontawesome.min.css" />
+    <Content Include="Vista\css\regular.css" />
+    <Content Include="Vista\css\regular.min.css" />
     <Content Include="Vista\css\sb-admin-2.min.css" />
+    <Content Include="Vista\css\solid.css" />
+    <Content Include="Vista\css\solid.min.css" />
+    <Content Include="Vista\css\svg-with-js.css" />
+    <Content Include="Vista\css\svg-with-js.min.css" />
+    <Content Include="Vista\css\v4-shims.css" />
+    <Content Include="Vista\css\v4-shims.min.css" />
+    <None Include="Vista\Imagenes\img-profile" />
     <Content Include="Vista\RegistrarUsuario.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -108,7 +123,6 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="Vista\Class1.cs" />
     <Compile Include="Vista\RegistrarUsuario.aspx.cs">
       <DependentUpon>RegistrarUsuario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
