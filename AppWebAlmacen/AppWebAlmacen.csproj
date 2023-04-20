@@ -69,6 +69,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\sweetalert-dev.js" />
+    <Content Include="Scripts\sweetalert.min.js" />
+    <Content Include="Vista\css\sweetalert.css" />
     <Content Include="Vista\Bootstrap\css\bootstrap-grid.css" />
     <Content Include="Vista\Bootstrap\css\bootstrap-grid.min.css" />
     <Content Include="Vista\Bootstrap\css\bootstrap-grid.rtl.css" />
@@ -92,14 +95,21 @@
     <Content Include="Vista\Bootstrap\js\bootstrap.js" />
     <Content Include="Vista\Bootstrap\js\bootstrap.min.js" />
     <Content Include="Vista\css\sb-admin-2.min.css" />
+    <Content Include="Vista\css\StyleRegistroProductos.css" />
     <Content Include="Vista\RegistrarUsuario.aspx" />
+    <Content Include="Vista\RegistroProducto.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Datos\ClCategoriaD.cs" />
     <Compile Include="Datos\ClConexion.cs" />
     <Compile Include="Datos\ClProcesarSQL.cs" />
+    <Compile Include="Datos\ClProductoD.cs" />
+    <Compile Include="Entidades\ClCategoriaE.cs" />
     <Compile Include="Entidades\ClProductoE.cs" />
     <Compile Include="Entidades\ClUsuarioEn.cs" />
+    <Compile Include="Logica\ClCategoriaL.cs" />
+    <Compile Include="Logica\ClProductoL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -108,13 +118,19 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="Vista\Class1.cs" />
     <Compile Include="Vista\RegistrarUsuario.aspx.cs">
       <DependentUpon>RegistrarUsuario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Vista\RegistrarUsuario.aspx.designer.cs">
       <DependentUpon>RegistrarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\RegistroProducto.aspx.cs">
+      <DependentUpon>RegistroProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vista\RegistroProducto.aspx.designer.cs">
+      <DependentUpon>RegistroProducto.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -150,7 +166,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Logica\" />
+    <Folder Include="Vista\Imagenes\ImagenesProducto\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
