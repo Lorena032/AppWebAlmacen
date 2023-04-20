@@ -95,7 +95,6 @@
     <Content Include="Vista\Bootstrap\js\bootstrap.js" />
     <Content Include="Vista\Bootstrap\js\bootstrap.min.js" />
     <Content Include="Vista\css\sb-admin-2.min.css" />
-    <Content Include="Vista\css\StyleRegistroProductos.css" />
     <Content Include="Vista\RegistrarUsuario.aspx" />
     <Content Include="Vista\RegistroProducto.aspx" />
     <Content Include="Web.config" />
