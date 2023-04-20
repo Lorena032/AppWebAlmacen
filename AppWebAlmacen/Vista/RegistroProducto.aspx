@@ -4,7 +4,6 @@
     <script src="../Scripts/sweetalert.min.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <!-- main -->
     <div class="main-w3layouts wrapper">
         <h1>Registrar Producto</h1>
         <div class="main-agileinfo">
@@ -27,5 +26,4 @@
             </div>
         </div>
     </div>
-    <!-- //main -->
 </asp:Content>
