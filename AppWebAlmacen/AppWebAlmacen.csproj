@@ -75,6 +75,7 @@
     <Compile Include="Datos\ClConexion.cs" />
     <Compile Include="Datos\ClProcesarSQL.cs" />
     <Compile Include="Entidades\ClProductoE.cs" />
+    <Compile Include="Entidades\ClUsuarioEn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vista\Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
