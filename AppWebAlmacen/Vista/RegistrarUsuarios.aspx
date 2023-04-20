@@ -33,8 +33,7 @@
             <asp:TextBox ID="txtClave" placeholder="Clave" type="password" runat="server"></asp:TextBox>
 
             <hr />
-
-            <%--<asp:Button ID="btnRegistrar" CssClass="registerbtn" runat="server" Text="Registrar" OnClick="btnRegistrar_Click1" />--%>
+            <asp:Button ID="btnRegistrar" CssClass="registerbtn" runat="server" Text="REGISTRAR" OnClick="btnRegistrar_Click" />
         </div>
 
     </form>
