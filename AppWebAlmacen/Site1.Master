@@ -50,7 +50,7 @@
                         </a>
                         <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar" style="">
                             <div class="bg-white py-2 collapse-inner rounded">
-                                <a class="collapse-item" href="#">Registrar Usuario</a>
+                                <a class="collapse-item" href="RegistrarUsuario.aspx">Registrar Usuario</a>
                                 <a class="collapse-item" href="#">Listar Usuario</a>
                             </div>
                         </div>
@@ -64,7 +64,8 @@
                         </a>
                         <div id="collapseUtilities" class="collapse show" aria-labelledby="headingUtilities" data-parent="#accordionSidebar" style="">
                             <div class="bg-white py-2 collapse-inner rounded">
-                                <a class="collapse-item" href="#">Registrar Productos</a>
+                                <a class="collapse-item" href="RegistroProducto.aspx" >Registrar Productos</a>
+                                <%--<a href="Vista/RegistroProducto.aspx">Vista/RegistroProducto.aspx</a>--%>
                                 <a class="collapse-item" href="#">Listar Productos</a>
                             </div>
                         </div>
@@ -292,7 +293,8 @@
                         <!-- End of Topbar -->
 
 
-
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
                     </div>
                 </div>
 
@@ -314,8 +316,7 @@
                 <script src="js/demo/chart-area-demo.js"></script>
                 <script src="js/demo/chart-pie-demo.js"></script>
 
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
+
             </div>
     </form>
 </body>

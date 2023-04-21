@@ -2,9 +2,10 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="../Scripts/sweetalert.min.js"></script>
+    <link href="css/EstilosRegistro.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="main-w3layouts wrapper">
+    <%--<div class="main-w3layouts wrapper">
         <h1>Registrar Producto</h1>
         <div class="main-agileinfo">
             <div class="agileits-top">
@@ -25,5 +26,37 @@
                 <p>Don't have an Account? <a href="#">Login Now!</a></p>
             </div>
         </div>
-    </div>
+    </div>--%>
+
+    <div class="form">
+
+        <!--TITULO------------------------>
+        <h1 class="titulo">Registrar Producto</h1>
+
+        <!--CAJAS-DE-ENTRADA-DE-DATOS------------------------------------------------>
+        
+        <asp:TextBox ID="txtCodigo" CssClass="cajas" runat="server" placeholder="Codigo"></asp:TextBox>
+        <asp:TextBox ID="txtNombre" CssClass="cajas" runat="server" placeholder="Nombre Del Producto"></asp:TextBox>
+        <asp:TextBox ID="txtDescripcion" CssClass="cajas" runat="server" placeholder="Descripcion"></asp:TextBox>
+        <asp:TextBox ID="txtPrecio" CssClass="cajas" runat="server" placeholder="Precio"></asp:TextBox>
+        
+        <asp:FileUpload ID="fuImagen" runat="server" CssClass="btn" />
+        <asp:DropDownList ID="ddlCategoria" CssClass="cajas" runat="server"></asp:DropDownList> 
+        
+
+
+
+        <!--TERMINOS-Y-CONDICIONES---------------------------------------------------------------------------------->
+        <p class="termino1">
+            <input type="checkbox" />
+            Estoy de acuerdo con <a class="termino2" href="#">Terminos y Condiciones</a></p>
+
+        <!--BOTON-DE-REGISTRARSE-------------------------->
+      
+        <asp:Button ID="Button1" CssClass="btn" runat="server" Text="Registrar" OnClick="btnRegistrar_Click"  />
+        
+
+        <!--YA-TENGO-CUENTA----------------------------------------------------------->
+        <p class="tengo-cuenta"><a href="#" class="tengo-cuenta">Ya tengo cuenta</a></p>
+     </div>
 </asp:Content>

@@ -10,9 +10,9 @@ namespace AppWebAlmacen.Datos
     {
         public int mtdRegistrar(ClUsuarioEn objDatos)
         {
-            string consulta = "insert into Usuario(documento, nombre, apellido, email, clave)" +
+            string consulta = "insert into Usuario(documento, nombre, apellido, email, clave,idRol)" +
                 "values('" + objDatos.documento + "', '" + objDatos.nombre + "', '" + objDatos.apellido + "', " +
-                "'" + objDatos.email + "', '" + objDatos.clave + "')";
+                "'" + objDatos.email + "', '" + objDatos.clave + "',"+objDatos.idRol+")";
 
             ClProcesarSQL objSQL = new ClProcesarSQL();
             int canReg = objSQL.mtdIUDconect(consulta);

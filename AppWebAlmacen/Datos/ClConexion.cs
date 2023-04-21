@@ -11,7 +11,7 @@ namespace AppWebAlmacen.Datos
         SqlConnection conexion;
         public SqlConnection mtdConexion()
         {
-            conexion = new SqlConnection("Data Source=.;Initial Catalog=dbAlmacen;Integrated Security=True");
+            conexion = new SqlConnection("Data Source=SOGAPRRBCFSD531;Initial Catalog=dbAlmacen;Integrated Security=True");
             conexion.Open();
             return conexion;
         }

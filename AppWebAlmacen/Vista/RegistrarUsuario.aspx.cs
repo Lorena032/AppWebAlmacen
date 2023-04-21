@@ -9,11 +9,22 @@ using System.Web.UI.WebControls;
 
 namespace AppWebAlmacen.Vista
 {
-    public partial class RegistrarUsuarios : System.Web.UI.Page
+    public partial class RegistrarUsuario1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                ClRolL objRol = new ClRolL();
+                List<ClRolE> listRol = new List<ClRolE>();
+                listRol = objRol.mdtListarRol();
 
+                ddlRol.DataSource = listRol;
+                ddlRol.DataTextField = "rol";
+                ddlRol.DataValueField = "idRol";
+                ddlRol.DataBind();
+                ddlRol.Items.Insert(0, new ListItem("Seleccione", "0"));
+            }
         }
 
         protected void btnRegistrar_Click(object sender, EventArgs e)
@@ -24,6 +35,8 @@ namespace AppWebAlmacen.Vista
             objDatosUsuario.apellido = txtApellido.Text;
             objDatosUsuario.email = txtEmail.Text;
             objDatosUsuario.clave = txtClave.Text;
+            objDatosUsuario.idRol = int.Parse(ddlRol.SelectedValue.ToString());
+            
 
             ClUsuarioL objUsuarioL = new ClUsuarioL();
             int resultado = objUsuarioL.mtdRegistrar(objDatosUsuario);
@@ -39,4 +52,4 @@ namespace AppWebAlmacen.Vista
             }
         }
     }
-    }
+}

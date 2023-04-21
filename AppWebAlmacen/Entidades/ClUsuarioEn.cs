@@ -13,5 +13,6 @@ namespace AppWebAlmacen.Entidades
         public string apellido { get; set; }
         public string email { get; set; }
         public string clave { get; set; }
+        public int idRol { get; set; }
     }
 }
