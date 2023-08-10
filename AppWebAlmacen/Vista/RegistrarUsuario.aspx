@@ -45,6 +45,7 @@
         <asp:TextBox ID="txtEmail" CssClass="cajas" runat="server" placeholder="Email" TextMode="Email"></asp:TextBox>
         <asp:TextBox ID="txtClave" CssClass="cajas" runat="server" placeholder="Contraseña" TextMode="Password"></asp:TextBox>
         <asp:DropDownList ID="ddlRol" CssClass="cajas" runat="server"></asp:DropDownList> 
+ <asp:DropDownList ID="ddlRol" CssClass="cajas" runat="server"></asp:DropDownList> 
         <%--<asp:FileUpload ID="fuImagen" runat="server" CssClass="btn" />--%>
         <%--<asp:DropDownList ID="ddlCategoria" CssClass="cajas" runat="server"></asp:DropDownList>--%>
 
