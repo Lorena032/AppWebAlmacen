@@ -36,21 +36,6 @@
 
     <div class="form">
 
-        <!--TITULO------------------------>
-        <h1 class="titulo">Registrar Usuario</h1>
-
-        <!--CAJAS-DE-ENTRADA-DE-DATOS------------------------------------------------>
-
-        <asp:TextBox ID="txtDocumento" CssClass="cajas" runat="server" placeholder="Documento"></asp:TextBox>
-        <asp:TextBox ID="txtNombre" CssClass="cajas" runat="server" placeholder="Nombre"></asp:TextBox>
-        <asp:TextBox ID="txtApellido" CssClass="cajas" runat="server" placeholder="Apellido"></asp:TextBox>
-        <asp:TextBox ID="txtEmail" CssClass="cajas" runat="server" placeholder="Email" TextMode="Email"></asp:TextBox>
-        <asp:TextBox ID="txtClave" CssClass="cajas" runat="server" placeholder="Contraseña" TextMode="Password"></asp:TextBox>
-        <asp:DropDownList ID="ddlRol" CssClass="cajas" runat="server"></asp:DropDownList> 
- <asp:DropDownList ID="ddlRol" CssClass="cajas" runat="server"></asp:DropDownList> 
-        <%--<asp:FileUpload ID="fuImagen" runat="server" CssClass="btn" />--%>
-        <%--<asp:DropDownList ID="ddlCategoria" CssClass="cajas" runat="server"></asp:DropDownList>--%>
-
 
 
 
