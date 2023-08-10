@@ -20,6 +20,8 @@
 
         <asp:Label ID="lblApellido" runat="server" Text="Apellido: "></asp:Label>
         <asp:TextBox ID="txtApellido" placeholder="Apellido" runat="server"></asp:TextBox>
+        <asp:Label ID="lblApellido" runat="server" Text="Apellido: "></asp:Label>
+        <asp:TextBox ID="txtApellido" placeholder="Apellido" runat="server"></asp:TextBox>
 
         <asp:Label ID="lblEmail" runat="server" Text="Email: "></asp:Label>
         <asp:TextBox ID="txtEmail" placeholder="Email" runat="server"></asp:TextBox>
